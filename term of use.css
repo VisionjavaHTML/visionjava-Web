@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #15202b;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #1e2a38;
+    color: #fff;
+    padding: 20px;
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+    animation: slide-up 0.5s ease-in-out;
+  }
+  
+  .content {
+    margin-bottom: 40px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #1e2a38;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  /* Additional Styles */
+  /* Add your additional styles here if needed */
+  
+  /* Animations */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

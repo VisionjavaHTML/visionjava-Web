@@ -1,0 +1,27 @@
+/* Additional styles for the donations section */
+
+body {
+    background-color: #111;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.donate-btn {
+    font-size: 18px;
+    padding: 15px 30px;
+}

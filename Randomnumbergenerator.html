@@ -1,0 +1,71 @@
+<h1><center>Random Number Generator</center></h1>
+<h1><center>Code by: Continentalia</center></h1>
+<style>
+    :root {
+  --clr-primary: teal;
+  --clr-secondary: crimson;
+  
+  --bg-primary: #0d1a2d;
+  --bg-secondary: #14273e;
+  
+  --text-primary: #fff;
+  --text-secondary: #ccc;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-secondary);
+}
+</style>
+
+
+<textarea rows="15" cols="60" readonly>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Number Generator</title>
+  <style>
+    body {
+      text-align: center;
+      margin-top: 200px;
+      font-size: 24px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Random Number Generator</h1>
+  <p>Click the button to generate a random number:</p>
+  <p id="result"></p>
+  <button onclick="generateRandomNumber()">Generate</button>
+
+  <script>
+    function generateRandomNumber() {
+      var randomNumber = Math.floor(Math.random() * 100) + 1;
+      document.getElementById("result").textContent = randomNumber;
+    }
+  </script>
+</body>
+</html>
+</textarea>
