@@ -1,5 +1,5 @@
 // IP address to show the popup
-const targetIP = '213.67.185.238
+const targetIP = ' IP Here 
 ';
 
 // Function to check if the current IP matches the target IP
